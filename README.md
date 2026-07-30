@@ -13,3 +13,4 @@ brew tap Makuraryu/tap
 | Formula | Description |
 |---------|-------------|
 | [manabu](Formula/manabu.rb) | Japanese sentence-level reading CLI (DeepSeek-backed) |
+| [noren](Formula/noren.rb) | Scrolling terminal multiplexer with horizontal workspaces |
