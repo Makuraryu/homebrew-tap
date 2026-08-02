@@ -4,8 +4,8 @@
 class Noren < Formula
   desc "Scrolling terminal multiplexer built around horizontal workspaces"
   homepage "https://github.com/Makuraryu/Noren"
-  url "https://github.com/Makuraryu/Noren/archive/refs/tags/v0.4.3.tar.gz"
-  sha256 "fe606d0c6d918f89d6ff71f6a77c656a1aa123254a7d49654406c18aaf300555"
+  url "https://github.com/Makuraryu/Noren/archive/refs/tags/v0.4.4.tar.gz"
+  sha256 "03c4c65f4262d4f80f1014d1a072f9c29d05fc55d7b8f17c5351de2f5dd05a25"
   license "MIT"
 
   depends_on "zig" => :build
@@ -15,6 +15,6 @@ class Noren < Formula
   end
 
   test do
-    assert_match "noren 0.4.3", shell_output("#{bin}/noren version")
+    assert_match "noren 0.4.4", shell_output("#{bin}/noren version")
   end
 end
