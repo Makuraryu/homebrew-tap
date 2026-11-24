@@ -1,8 +1,8 @@
 class Manabu < Formula
   desc "Japanese sentence-level reading CLI backed by the DeepSeek API"
   homepage "https://github.com/Makuraryu/manabu"
-  url "https://github.com/Makuraryu/manabu/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "8c302039b5f36154f9c343b922c70af3a09a2f7175aef6282ab8585f64587450"
+  url "https://github.com/Makuraryu/manabu/archive/refs/tags/v1.2.1.tar.gz"
+  sha256 "54d86a20e24e64eefc07b10838a7bea357906f3f79804ce6c5b14fad2ce6c619"
   license "MIT"
 
   depends_on "nim"
